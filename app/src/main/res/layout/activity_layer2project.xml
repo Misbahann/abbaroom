@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layer2project">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/key"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/pesan"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/rectangel7"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="233dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/rectangel7"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="232dp"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/logojadi"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="203dp"
+        android:layout_height="29dp"
+        android:text="Masuk ke akun abba "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="397dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

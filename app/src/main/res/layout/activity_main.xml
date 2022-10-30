@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abbarooms"
+        android:textColor="@color/ijo"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        layout
+        android:layout_width="422dp"
+        android:layout_height="125dp"
+        android:scrollbarSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_editor_absoluteX=""
+        app:srcCompat="@drawable/gambarkota"
+        tools:layout_editor_absoluteY="774dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="262dp"
+        android:layout_height="273dp"
+        app:srcCompat="@drawable/logojadi"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="perfect comfort in your every room"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
